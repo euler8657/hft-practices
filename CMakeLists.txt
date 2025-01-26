@@ -3,6 +3,7 @@ cmake_minimum_required( VERSION 3.16.0 )
 set( PROJECT_VERSION_MAJOR 1 )   # 主版本
 set( PROJECT_VERSION_MINOR 3 )   # 次版本
 set( PROJECT_VERSION_PATCH 2 )   # 修订号(Bug fix)
+set( CMAKE_EXPORT_COMPILE_COMMANDS ON ) # 生成编译命令
 
 # 版本全串
 set( PROJECT_VERSION
