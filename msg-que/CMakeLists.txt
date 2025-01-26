@@ -14,6 +14,11 @@ add_executable( leonq-sp leonq-sp.cpp )
 target_link_libraries( leonq-sp Threads::Threads )
 install(TARGETS leonq-sp RUNTIME DESTINATION . )
 
+######## LeonRQ Example ############################################################
+add_executable( leonrq-example LeonRQ_example.cpp )
+target_link_libraries( leonrq-example Threads::Threads )
+install(TARGETS leonrq-example RUNTIME DESTINATION . )
+
 ######## SHMRQ Single Process ######################################################
 add_executable( shmrq-sp shmrq-sp.cpp )
 target_link_libraries( shmrq-sp objSHMRQ Threads::Threads rt )
